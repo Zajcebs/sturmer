@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&family=Noto+Sans+Wancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://css.gg/instagram.css');
+@import url('https://css.gg/facebook.css');
+@import url('https://css.gg/twitter.css');
+
+
+
+*{
+    box-sizing: border-box;
+    
+    scroll-behavior: smooth;
+}
+
+#kontener{
+    width: 80%;
+    height: 100vh;
+    background-color: #d1e0e0 ;
+    margin: auto;
+    scroll-behavior: smooth;
+    
+}
+#kontener1{
+    width: 80%;
+    height: 4000px;
+    background-color: #d1e0e0 ;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+#kontener2{
+    width: 80%;
+    
+    background-color: #d1e0e0 ;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+#kontener3{
+    width: 80%;
+    
+    background-color: #d1e0e0 ;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+#kontener4{
+    width: 80%;
+    height: 70vh;
+    background-color: #d1e0e0 ;
+    margin: auto;
+    scroll-behavior: smooth;
+    font-family: 'Bebas Neue';
+}
+#kontenerkont{
+    width: 80%;
+    height: 1950px;
+    margin: auto;
+}
+#zawartosc{
+    width: 100%;
+    min-height: 2000px;
+
+}
+#baner{
+    width: 100%;
+    height: 150px;
+    font-family: 'Bebas Neue', cursive;
+    background: rgb(209,224,224);
+    background: linear-gradient(90deg, rgba(209,224,224,1) 66%, rgba(255,255,255,1) 100%);
+
+    
+}
+#logo{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 30%;
+    width: 400px;
+}
+#obraz{
+    width: 40%;
+    height: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#lupa{
+    width: 60%;
+    height: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: end;
+    padding-right: 100px;
+    letter-spacing: 30px;
+}
+#lupa svg{
+    margin-right: 10px;
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.2);
+    font-family: 'Bebas Neue', cursive;
+    
+
+}
+#xdxd{
+    background-color: #d1e0e0 ;
+}
+.menu{
+    width: 16.6%;
+    height: 50px;
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+}
+
+.menu:hover , .dropdown:hover {     
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+#slajdy{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 150px
+}
+#slajdy img{
+    padding-top: 30px;
+}
+#tekst1{
+    text-align: center;
+    padding-top: 60px;
+}
+#kontakt{
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#dzial{
+    width: 100%;
+
+}
+#praco{
+    width: 100%;
+    height: 600px;
+    background-color: #d1e0e0 ;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+}
+.pracownik{
+    width: 20%;
+    height: 300px;
+    
+    
+}
+.zdj{
+    width: 90%;
+    height: 300px;
+    padding-top: 20px;
+}
+#kontaktWste{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+#pracown{
+    width: 100%;
+    height: 600px;
+    background-color: #d1e0e0 ;
+    float: left;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#stopka{
+    width: 100%;
+    height: 500px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+#emoji{
+    width: 20px;
+    height: 20px;
+}
+#emoji1{
+    width: 20px;
+    height: 20px;
+
+}
+
+
+
+#prom{
+    text-align: center;
+    padding-top: 60px;
+}
+#desc{
+    float: left;
+}
+#obrazeke{
+    float: left;
+}
+#Siedzibazdj{
+    width: 100%;
+    height: 60vh;
+    background-image: url('zdj/mini_P1011753.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#Siedziba{
+    width: 100%;
+    height: 905px; 
+    background-color: silver;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#submit{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#submit:hover{
+    width: 130px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+#centrumlogistyczneZdj{
+    width: 100%;
+    height: 60vh;
+    background-image: url('zdj/Stuermer-Maszyny-Magazyn.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#centrumlogistyczne{
+    width: 100%;
+    height: 400px; 
+    background-color: silver;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#onaszdj{
+    width: 100%;
+    height: 60vh;
+    background-image: url('zdj/mini_DSC_6079-21.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#onaste{
+    width: 100%;
+    height: 600px; 
+    background-color: silver;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#ul{
+    text-decoration: none;
+    color: black;
+}
+#pusto{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+.hdwa{
+    padding-top: 50px;
+}
+.dropbtn {
+    /* background-color: #d1e0e0 ; */
+
+    font-size: 20px;
+    background-color:rgba(0, 0, 0, 0.00);
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    /* margin: 7px 30px 0px 30px; */
+    /* padding: 16px; */
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    
+    
+    
+  }
+  .dropdown {
+    position: relative;
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    height: 50px;
+    padding: 10px;
+    transition: 0.5s all;
+    
+    
+    
+  }
+  .dropdown-content {
+    
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    top: 13px;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+    margin: auto;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+ /*  .dropdown:hover .dropbtn {
+    background-color: rgb(43, 17, 87);
+  } */
+  #srtwbd{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #promocja{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+
+  #zawartosc1{
+    background-color: #d1e0e0 ;
+    width: 100%;
+    min-height: 1000px;
+  }
+  #okazje{
+    width: 100%;
+    height: 50vh;
+  }
+#okazje p{
+    font-size: 30px;
+  }
+.txt1{
+    width: 100%;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.2);
+    font-family: 'Bebas Neue', cursive;
+    
+  }
+ .hejka{
+    margin: auto;
+    width: 1080px;
+    height: 392px;
+    animation: hejka1 0.6s infinite;
+    
+  }
+  @keyframes hejka1{
+    0%{
+        -webkit-box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+        -moz-box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+        box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+    }
+    50%{
+        -webkit-box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+        box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+    }
+    100%{
+        -webkit-box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+        -moz-box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+        box-shadow: 0px 0px 45px 11px rgba(255, 0, 7, 1);
+    }
+  }
+  #stopka{
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    background: rgb(247,250,250);
+    background: linear-gradient(90deg, rgba(247,250,250,1) 34%, rgba(209,224,224,1) 39%);
+    -webkit-box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 45px 11px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    clear: both;
+  }
+  #nieb{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: -20px;
+    
+  }
+  #nieb img{
+    margin-top: 60px;
+    margin-left: -50px;
+  }
+  #bialo{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  #siemaa{
+    
+    display: flex;
+    flex-direction: row;
+  }
+  #krecha{
+    
+    width: 1.2px;
+    height: 250px;
+    background-color: white;
+  }
+  #icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  #icons img{
+    margin: 20px;
+    margin-left: 50px;
+  }
+
+  #jeden1{
+    width: 50%;
+    height: 300px;
+    display: flex;
+  }
+  #dwa2{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    
+  }
+  #adres{
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+  }
+  #kontakt2{
+    width: 100%;
+    height: 150px;
+  }
+  @media only screen and (max-width: 1370px) {
+    .slajd1 img  {
+      width: 600px;
+    }
+    .hejka{
+        width: 600px;
+        height: 217.92px;
+    }
+  } 
+  @media only screen and (max-width: 770px) {
+    .slajd1 img  {
+      width: 400px;
+    }
+    .hejka{
+        width: 400px;
+        height: 217.92px;
+    }
+  } 
+  @media only screen and (max-width: 1030px) {
+    .slajd{
+        width: 400px;
+    }
+  } 
+  #maszynymetal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+  }
+  #maszynymetal a{
+    text-decoration: none;
+  }
+  #optimum{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: 70vh;
+    
+    
+  }
+  #metallkraft{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: 70vh;
+    
+  }
+  .zaw{
+    display: flex;
+    flex-direction: row;
+  }
+  #txtx1{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  #txtx2{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  #zdjj1{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #zdjj2{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #tloma{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #spawalnictwo{
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 300px;
+    background-color: #d1e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #unicraft{
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 300px;
+    background-color: #d1e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #kafelki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    
+  }
+  .card{
+    padding: 20px;
+    margin: 2%;
+    width: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
+
+  }
+  .card a{
+    text-decoration: none;
+  }
+  .card1{
+    font-size: 10px;
+    background-image: url(zdj/kafel1.jpg);
+  }
+  .card2{
+    background-image: url(zdj/kafel2.jpg);
+  }
+  .card3{
+    background-image: url(zdj/kafel3.jpg);
+  }
+  .card4{
+    background-image: url(zdj/kafel4.jpg);
+  }
+  .card4 .btn{
+    margin-top: 305px;
+  }
+  .h1{
+    text-align: center;
+    font-family: Arial, Helvetica;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 2px 0px 0px #1d2424;
+
+  }
+  .btn{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 330px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #a188fc 0%, #2eeade 50%, #a188fc 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: #ccffff;
+    
+    border-radius: 30px;
+    transition: all 0.7s;
+    border: solid 1px #333;
+  }
+  .btn:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #a188fc 0%, #2eeade 50%, #a188fc 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #55ffff;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid #ccffff;
+
+  }
+ #kafelki:hover .card{
+    filter: blur(2px);
+    opacity: .3;
+    transform: scale(.98);
+    box-shadow: none;
+  }
+  #kafelki:hover .card:hover{
+    transform: scale(1.05);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 0 20px #229999;
+  }
+  .btn1{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #cbbdff 0%, #ecfffe 50%, #cbbdff 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: #ccffff;
+    pad: 7px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+    border: solid 1px #333;
+  }
+  .btn1:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #cbbdff 0%, #ecfffe 50%, #cbbdff 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #305f5f;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid #ccffff;
+
+  }
+  .btn2{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #808080 0%, #ecfffe 50%, #3fada8 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: #ccffff;
+    pad: 7px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+    border: solid 1px #333;
+  }
+  .btn2:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #808080 0%, #3fada8 50%, #808080 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #305f5f;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid #ccffff;
+
+  }
+  .btn3{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #8E0E00 0%, #8E0E00 50%, #1F1C18 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: white;
+    pad: 7px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+    border: solid 1px #333;
+  }
+  .btn3 a{
+    color: white;
+  }
+  .btn3:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #1F1C18 0%, #290804 50%, #8E0E00 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #d85f5f;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid #000000;
+
+  }
+  .btn4{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #fd746c 0%, #fd746c 50%, #ff9068 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: white;
+    pad: 7px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+    border: solid 1px #333;
+  }
+  .btn4 a{
+    color: white;
+  }
+.btn4:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #ff9068 0%, #fd746c 50%, #8E0E00 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #ebc081;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid black;
+
+  }
+.btn5{
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #a188fc;
+    background: linear-gradient(to right, #DCE35B 0%, #DCE35B 50%, #45B649 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: black;
+    pad: 7px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+    border: solid 1px #333;
+  }
+.btn5 a{
+    color: black;
+  }
+.btn5:hover{
+    background: #a188fc;
+    background: linear-gradient(to right, #45B649 0%, #DCE35B 50%, #DCE35B 100%);
+    background-size: 200%;
+    background-position: 0px;
+    box-shadow: 0 0 20px #04ff58;
+    color: #ccffff;
+    text-shadow:  0 0 20px #000000;
+    border: 1px solid rgb(255, 255, 255);
+
+  }
+#promo1{
+    width: 100%;
+    height: 100px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+#naglow{
+  width: 100%;
+  height: 100px;
+  text-align: center; 
+}
+.katalogi1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+}
+.katalogi2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;  
+}
+.katalogi3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 400px; 
+}
+.katalogi4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 400px; 
+}
+#katalog1{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+#katalog2{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+#katalog3{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+#katalog4{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+#katalog5{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+#katalog6{
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica;
+}
+.kata img {
+  margin: 30px;
+  transition: all 0.5s;
+}
+.kata img:hover{
+  transform: scale(0.95);
+  opacity: .7;
+}
+.tekscior{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 400px;
+}
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
+  #tloo{
+    background-color: rgba(209, 224, 224, 1);
+    background-image: linear-gradient(135deg, rgba(209, 224, 224, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  }
+
+
+
+
+
